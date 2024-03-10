@@ -1,0 +1,27 @@
+*what is time complexity?
+-->Time complexity measures how the runtime of an algorithm scales with the size of its input. It's expressed using Big O notation, providing an upper bound on the algorithm's worst-case performance. 
+   Lower time complexity generally indicates better efficiency. Understanding time complexity helps in selecting optimal algorithms for tasks, especially with large datasets.
+-->The time complexity of common operations on lists and sets in Python:
+
+List:
+- Accessing an element by index: O(1)
+- Appending an element to the end: O(1)
+- Inserting or deleting an element: O(n)
+- Searching for an element: O(n) 
+- Sorting: O(n log n)
+- Removing an element by value: O(n)
+
+Set:
+- Adding an element: O(1)
+- Removing an element: O(1)
+- Checking for membership (whether an element is in the set): O(1)
+- Union, intersection, and difference: O(min(len(s1), len(s2)))
+- Iterating over the set: O(n)
+*types of time complexity:
+ -->The most common types of time complexity are:
+   1. Constant Time (O(1))
+   2. Linear Time (O(n))
+   3. Logarithmic Time (O(log n))
+   4. Polynomial Time (O(n^k))
+   5. Exponential Time (O(2^n))
+   6. Factorial Time (O(n!))
